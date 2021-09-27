@@ -110,7 +110,7 @@ Example
 
 ### Response Object
 
-* Sample Success response after creating new booking
+* Sample Success response after creating new pdf
 
 ```JS
 {
