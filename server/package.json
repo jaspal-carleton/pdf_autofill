@@ -1,0 +1,41 @@
+{
+  "name": "pdf_autofill_server",
+  "version": "1.0.0",
+  "description": "Web server",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./bin/app",
+    "test": "mocha './test/**/*.test.js' --reporter spec",
+    "coverage": "nyc --all npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaspal-carleton/pdf_autofill.git"
+  },
+  "author": "Jaspal Singh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaspal-carleton/pdf_autofill/issues"
+  },
+  "homepage": "https://github.com/jaspal-carleton/pdf_autofill#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "hashmap": "^2.4.0",
+    "http-errors": "^1.8.0",
+    "moment-timezone": "^0.5.33",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.12",
+    "pdf-lib": "^1.16.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "mocha": "^9.1.1",
+    "nyc": "^15.1.0",
+    "rootpath": "^0.1.2",
+    "sinon": "^11.1.2"
+  }
+}

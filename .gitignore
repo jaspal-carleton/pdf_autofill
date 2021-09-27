@@ -102,3 +102,61 @@ dist
 
 # TernJS port file
 .tern-port
+
+
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases 
+*.log
+*.sql
+*.sqlite
+*.rdb
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# WebStorm Specific
+.idea
+.project
+.sass
+.sass-cache
+
+# Node Specific
+.nodemonignore
+/node_modules/
+npm-debug.log
+
+# Heroku Specific
+.env
+/tmp
+
+# Grunt Specific
+.temp
+
+# Emacs Specific
+*~
+
+# Vim Specific
+*.swp
